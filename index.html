@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo(2).png">
+    <title>BeatFlow | Feel The Flow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- Page loading animation -->
+    <div id="loader">
+        <div class="background"></div>
+        <div class="particles">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="ring ring1"></div>
+        <div class="ring ring2"></div>
+        <div class="logo-box"><img src="logo.png" class="logo"></div>
+        <div class="equalizer"><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="loading">Loading<span></span></div>
+    </div>
+
+    <!-- web-code -->
+    <header>
+        <div class="navbar">
+            <div class="cont-1">
+                <div class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="logo"><img src="logo(2).png" alt="logo-pic" width="40">
+                    <div class="heading">
+                        <h3>Beat<span>Flow</span></h3>
+                        <p>Feel The Flow</p>
+                    </div>
+                </div>
+                <div class="home">
+                    <a href="#home"><i class="fa-solid fa-house" style="color: rgb(255, 255, 255);"></i></a>
+                </div>
+                <div class="search-bar">
+                    <a href="#search">
+                        <i class="fa-solid fa-magnifying-glass" style="color: rgb(255, 255, 255);"></i>
+                    </a>
+                    <input type="text" placeholder="What do you want to play?">
+                </div>
+            </div>
+            <div class="cont-2">
+                <div class="options">
+                    <ul>
+                        <li><a href="">Premium</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Download</a></li>
+                        <li><b>|</b></li>
+                    </ul>
+                </div>
+
+                <div class="btns">
+                    <button id="Login">Log in</button>
+                    <button id="signup">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="overlay" id="overlay"></div>
+        <div class="container-1 box">
+            <div class="library">
+                <p>Your Library</p>
+                <button><i class="fa-solid fa-plus" style="color: rgb(255, 255, 255);"></i></button>
+            </div>
+            <div class="songslist">
+                <ul>
+
+                </ul>
+            </div>
+            <div class="footer">
+                <ul>
+                    <li><a href="">Legal</a></li>
+                    <li><a href="">Safety & Privacy</a></li>
+                    <li><a href="">Centre Privacy</a></li>
+                    <li><a href="">Policy Cookies</a></li>
+                    <li><a href="">About Ads</a></li>
+                    <li><a href="">Accessibilty</a></li>
+                </ul>
+                <div class="language">
+                    <button><i class="fa-solid fa-globe" style="color: rgb(255, 255, 255);"></i> English</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-2 box">
+            <div class="beatflow-playlists">
+                <h2>BeatFlow Playlists</h2>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-play" style="color: rgb(255, 255, 255);"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&auto=format&fit=crop&q=60"
+                        alt="Chill Vibes">
+                    <h4>Midnight Lo-Fi</h4>
+                    <p>Lofi Beats Collective</p>
+                </div>
+
+                <div class="card">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-play" style="color: rgb(255, 255, 255);"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&auto=format&fit=crop&q=60"
+                        alt="Electronic Dance">
+                    <h4>EDM Festival Anthems</h4>
+                    <p>Martin Garrix</p>
+                </div>
+
+                <div class="card">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-play" style="color: rgb(255, 255, 255);"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?w=400&auto=format&fit=crop&q=60"
+                        alt="Rock">
+                    <h4>Classic Rock Hits</h4>
+                    <p>Led Zeppelin, AC/DC, Queen</p>
+                </div>
+
+                <div class="card">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-play" style="color: rgb(255, 255, 255);"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&auto=format&fit=crop&q=60"
+                        alt="Acoustic">
+                    <h4>Acoustic Coffeehouse</h4>
+                    <p>Taylor Swift, Ed Sheeran</p>
+                </div>
+
+                <div class="card">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-play" style="color: rgb(255, 255, 255);"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1548123378-bde4eca81d2d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpcCUyMGhvcHxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="Hip Hop">
+                    <h4>Rap Caviar</h4>
+                    <p>Drake, Travis Scott, Kendrick</p>
+                </div>
+
+                <div class="card">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-play" style="color: rgb(255, 255, 255);"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=400&auto=format&fit=crop&q=60"
+                        alt="Bollywood">
+                    <h4>Desi Hits & Melodies</h4>
+                    <p>Arijit Singh, Atif Aslam</p>
+                </div>
+
+                <div class="card">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-play" style="color: rgb(255, 255, 255);"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=400&auto=format&fit=crop&q=60"
+                        alt="Jazz">
+                    <h4>Late Night Jazz Lounge</h4>
+                    <p>Miles Davis, John Coltrane</p>
+                </div>
+
+                <div class="card">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-play" style="color: rgb(255, 255, 255);"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=400&auto=format&fit=crop&q=60"
+                        alt="Gym">
+                    <h4>Beast Mode Workout</h4>
+                    <p>High Energy Gym Tracks</p>
+                </div>
+
+                <div class="card">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-play" style="color: rgb(255, 255, 255);"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&auto=format&fit=crop&q=60"
+                        alt="Pop">
+                    <h4>Global Top 50 Pop</h4>
+                    <p>The Weeknd, Dua Lipa, Billie Eilish</p>
+                </div>
+
+                <div class="card">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-play" style="color: rgb(255, 255, 255);"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&auto=format&fit=crop&q=60"
+                        alt="Focus">
+                    <h4>Deep Focus & Study</h4>
+                    <p>Ambient Noise & Piano Instrumental</p>
+                </div>
+
+                <div class="card">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-play" style="color: rgb(255, 255, 255);"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=400&auto=format&fit=crop&q=60"
+                        alt="Retro">
+                    <h4>80s Synthwave Drive</h4>
+                    <p>Retro Cyberpunk Electro</p>
+                </div>
+            </div>
+            <div class="playbar">
+                <input type="range" class="seekbar" min="0" max="100" value="0">
+
+
+                <div class="songsinfo">
+                    <div class="duration">
+
+                    </div>
+
+                    <div class="controls">
+                        <div class="prev pos">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+
+                        <div id="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+
+                        <div class="forw pos">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="name">
+
+                    </div>
+
+                </div>
+
+            </div>
+    </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
